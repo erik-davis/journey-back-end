@@ -3,3 +3,16 @@
 ################################################################################
 
 /JourneyBackEnd/.vs
+/JourneyBackEnd/JourneyBackEnd/bin
+/JourneyBackEnd/JourneyBackEnd/obj/Debug
+/JourneyBackEnd/JourneyBackEnd.Repositories/obj/Debug
+/JourneyBackEnd/JourneyBackEnd.Tests/obj/Debug
+/JourneyBackEnd/packages
+/JourneyBackEnd/JourneyBackEnd.sln.DotSettings.user
+/JourneyBackEnd/JourneyBackEnd/obj/Release
+/JourneyBackEnd/JourneyBackEnd/Properties/PublishProfiles
+/JourneyBackEnd/JourneyBackEnd/JourneyBackEnd.csproj.user
+/JourneyBackEnd/JourneyBackEnd.Repositories/bin
+/JourneyBackEnd/JourneyBackEnd.Repositories/obj/Release
+/JourneyBackEnd/JourneyBackEnd.Tests/bin/Debug
+/JourneyBackEnd/JourneyBackEnd.Tests/obj/Release
