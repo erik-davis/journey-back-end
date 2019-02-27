@@ -2,23 +2,23 @@
 {
     public class PriceCalculator: IPriceCalculator
     {
-        private double _nzdConversionRate = 1.0;
-        private double _usdConversionRate = 0.76;
-        private double _eurosConversionRate = 0.67;
+        public readonly double NzdConversionRate = 1.0;
+        public readonly double UsdConversionRate = 0.76;
+        public readonly double EurosConversionRate = 0.67;
 
         public double GetInNzd(double price)
         {
-            return price * _nzdConversionRate;
+            return price * NzdConversionRate;
         }
 
         public double GetInUsd(double price)
         {
-            return price * _usdConversionRate;
+            return price * UsdConversionRate;
         }
 
         public double GetInEuros(double price)
         {
-            return price * _eurosConversionRate;
+            return price * EurosConversionRate;
         }
     }
 }
